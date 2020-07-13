@@ -1,0 +1,42 @@
+.hero {
+
+  text-align: center;
+  
+  &__container {
+    @extend %container;
+    padding: 118px 0;
+    
+  }
+}
+
+.hero__title {
+  margin-bottom: 20px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $contrast-color;
+}
+
+.hero__text {
+  margin-bottom: 35px;
+
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.61;
+  color: $contrast-color;
+  text-transform: uppercase;
+}
+
+.hero__btn {
+  padding: 13px 36px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $contrast-color;
+
+  background-color: $accent-color;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
